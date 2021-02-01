@@ -1,0 +1,114 @@
+/* choosed font-family, made the width and height responsive and over-all font-size was set at 24px */ 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+/* added width ,centered the overall container, slight border and box-shadow*/
+.wrapper{
+    width: 700px;
+    margin: 80px auto;
+    border: 1px solid;
+    box-shadow: 0 0 8px 2px rgba(0, 0 , 0 , .75);
+    overflow: hidden;
+}
+
+/* for the element containing the logo and headers */
+#header{
+    display: flex;
+    border-bottom: 5px solid green;
+    padding: 0;
+}
+
+/* the div element hosuing the group of headers */
+.side{
+    line-height: .2;
+    flex: 2 0 250px;
+    align-items: center;
+    margin-left: -200px;
+}
+
+/* the div element housing the logo */
+#logo{
+    flex: 1 0 250px;
+    align-self: center;
+    margin-left: 110px;
+}
+/* group of headers used inside the header element */
+h1{
+    font-weight: 900;;
+    font-size: 2em;
+}
+h4{
+    font-weight: 900;
+    font-size: .75em;
+}
+h6{
+    font-weight: 200;
+    margin-top: -2px;
+}
+h6 span{
+    font-weight: 900;
+}
+
+/* for the table element */
+table{
+    margin-top: 25px;
+    border-collapse: collapse;
+    padding: 5px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+td{
+    vertical-align: text-top;
+}
+
+/* for numbers inside the td */
+.number{
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* for borders */
+.borderRight{
+    border-right: 1px solid ;
+}
+.noborderBottom{
+    border-bottom: none;
+}
+.borderBottom{
+    border-bottom: 1px solid;
+}
+.single{
+    border-top: 1px solid;
+}
+
+/* styling the paragraph element */
+p{
+    padding: 0 0 0 20px;
+    font-size: .8em;
+}
+/* for positioning the date */
+main{
+    position: relative;
+}
+main .date{
+    position: absolute;
+    font-size: ;
+    font-weight: bold;
+    color: black;
+    background: yellow;
+    top: -40px;
+    right: 100px;
+}
+
+/* footer */
+footer{
+    border-top: 1px solid;
+    text-align: center;
+    font-weight: 900;
+    font-size: .8em;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
